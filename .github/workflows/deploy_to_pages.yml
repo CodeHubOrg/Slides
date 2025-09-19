@@ -27,6 +27,7 @@ jobs:
             - name: Get Rayveal.js
               run: |
                 curl -L https://raw.githubusercontent.com/OlekRaymond/Slides/refs/heads/main/BuildSlides.py > BuildSlides.py
+                curl -L https://raw.githubusercontent.com/OlekRaymond/Slides/refs/heads/main/TemplateSlides.html.in > TemplateSlides.html.in
 
             - name: Build slides
               run: |
